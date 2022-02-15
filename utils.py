@@ -5,6 +5,11 @@ def fact(n):
 	Post: Returns the factorial of 'n'.
 	Throws: ValueError if n < 0
 	"""
+
+	total = 1
+	for number in range(1, n+1):
+		total = total*number
+	return total
 	pass
 
 def roots(a, b, c):
